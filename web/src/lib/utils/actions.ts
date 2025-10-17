@@ -1,5 +1,5 @@
 import { notificationController, NotificationType } from '$lib/components/shared-components/notification/notification';
-import { TimelineManager } from '$lib/managers/timeline-manager/timeline-manager.svelte';
+import { TimelineManager } from '$lib/managers/timeline-manager/TimelineManager.svelte';
 import type { TimelineAsset } from '$lib/managers/timeline-manager/types';
 import type { StackResponse } from '$lib/utils/asset-utils';
 import { AssetVisibility, deleteAssets as deleteBulk, restoreAssets } from '@immich/sdk';
